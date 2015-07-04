@@ -1,0 +1,8 @@
+Command to fetch the Django path
+$ python -c "
+import sys
+sys.path = sys.path[1:]
+import django
+print(django.__path__)"
+ Django template path
+#(django/contrib/admin/templates) 
